@@ -1,2 +1,0 @@
-https://habr.com/ru/post/351402/ --- установка сервера
-https://infoit.com.ua/linux/kak-ustanovit-filezilla-na-ubuntu-20-04-lts/  --- установка FileZilla
