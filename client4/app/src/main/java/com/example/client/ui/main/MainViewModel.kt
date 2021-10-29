@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModel
 
 class MainViewModel : ViewModel() {
 
+
     private val _text = MutableLiveData<String>().apply {
         value = "This is main Fragment"
     }

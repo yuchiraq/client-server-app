@@ -33,10 +33,8 @@ class MainFragment : Fragment() {
         _binding = FragmentMainBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textMain
-        mainViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+        
+
         return root
     }
 

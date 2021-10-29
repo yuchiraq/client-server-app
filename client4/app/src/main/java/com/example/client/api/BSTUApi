@@ -1,0 +1,16 @@
+package com.example.client.api
+
+import com.example.client.model.group
+import retrofit2.Call
+import retrofit2.http.GET
+import retrofit2.http.Query
+
+interface BSTUApi {
+
+    @GET("group.php")
+    fun group(@Query("group") group: String): Call<List<Group>>
+
+    @GET("index.php")
+    fun database(@Query("database") database: String): Call<List<Database>>
+
+}

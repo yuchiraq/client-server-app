@@ -46,17 +46,19 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
-    <TextView
-        android:id="@+id/text_main"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+
+    <com.google.android.material.navigation.NavigationView
+        android:backgroundTint="@color/white"
+        android:background="@color/white"
+        android:stateListAnimator="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="25dp"
         android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textDirection="inherit"
+        app:itemIconTint="@color/dark"
+        app:layout_constraintTop_toBottomOf="@+id/avatar"
+        app:menu="@menu/buttom_main_menu"
+        tools:layout_editor_absoluteX="59dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

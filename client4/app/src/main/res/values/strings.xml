@@ -21,5 +21,7 @@
     <integer name="kurs">0</integer>
     <string name="spec">speciality</string>
 
-
+    <string name="group">Группа</string>
+    <string name="note">Заметки</string>
+    <string name="settings">Настройки</string>
 </resources>
