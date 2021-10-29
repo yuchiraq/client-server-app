@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">client</string>
+    <string name="title_main">Главная</string>
+    <string name="title_schedule">Расписание</string>
+    <string name="title_more">Прочее</string>
+    <string name="title_activity_login">Login</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Пароль</string>
+    <string name="action_sign_in">Войти или зарегестрироваться</string>
+    <string name="action_sign_in_short">Войти</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Пароль не менее 4ёх символов</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="avatar">Личное фото</string>
+
+    <string name="username">Dick Heizinberg</string>
+    <string name="group_name">Группа</string>
+    <string name="faculty">Faculty</string>
+    <integer name="kurs">0</integer>
+    <string name="spec">speciality</string>
+
+
+</resources>

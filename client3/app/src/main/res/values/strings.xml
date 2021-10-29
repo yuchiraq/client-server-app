@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">client</string>
+    <string name="fname">Name</string>
+    <string name="lname">LName</string>
+    <string name="full_name">Name Lname</string>
+    <string name="title_home">Группа</string>
+    <string name="title_dashboard">Расписание</string>
+    <string name="title_notifications">Ещё</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
