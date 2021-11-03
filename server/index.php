@@ -11,7 +11,7 @@ if (!$database) {
         $data = $dbh->prepare($select_db);
         $data->execute();
         $data = $data->fetchAll(PDO::FETCH_ASSOC);
-        print_r($data);
+        echo json_encode($data);
         return json_encode($data);
 	} else {
 		echo "{'error':'The table is not exist', 'code':1}";
