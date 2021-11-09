@@ -21,7 +21,7 @@
         /*print_r($data_user_massiv[42]);
         print_r($data_user_massiv[120]);           // 42 + 78      user_id
         print_r($data_user_massiv[198]);*/
-        print_r(json_encode($data_exit));
+        echo json_encode($data_exit);
         return json_encode($data_exit);  
     }
 ?>
