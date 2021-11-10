@@ -1,3 +1,3 @@
 <?php
-	echo "Done";
+	print_r("Done");
 ?>

@@ -1,7 +1,7 @@
 <?php
     $group = $_GET["group"];
     if (!$group) {
-        echo "{'error':'Empty parameter', 'code':0}";
+        print_r("error: Empty parameter");
     } else {        
         $dbh = new PDO('pgsql:host=localhost port=5432 user=chiraq dbname=chiraq password=0812');     // подключение к БД
         $database_group = "SELECT * FROM users_university WHERE group_name LIKE '" . $group . "' ;";   // Выбираем user_id тех, кто в группе
@@ -21,7 +21,7 @@
         /*print_r($data_user_massiv[42]);
         print_r($data_user_massiv[120]);           // 42 + 78      user_id
         print_r($data_user_massiv[198]);*/
-        echo json_encode($data_exit);
-        return json_encode($data_exit);  
+        print_r($data_exit);
+        //return json_encode($data_exit);  
     }
 ?>
